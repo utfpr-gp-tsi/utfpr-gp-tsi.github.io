@@ -1,0 +1,9 @@
+- title: Tutorials
+  links:
+    - title: "Deploy a laravel aplicattion"
+      url: "docs/tutorials/deploy-laravel/deploy-aplicattion-laravel"
+      children:
+        - title: Example of deploy.php
+          url: "docs/tutorials/deploy-laravel/example-file-deploy"
+    - title: "Debugbar"
+      url: "docs/tutorials/debugbar/tutorial-debugbar"
