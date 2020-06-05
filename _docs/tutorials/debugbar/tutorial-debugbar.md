@@ -43,7 +43,7 @@ Adding Debugbar :: info ($ object); in the code it will show everything related 
 * TimeData
 
 It provides a way to record the total execution time, as well as to take "action" (that is, to measure the execution time of a specific operation).
-<img src="/assets/img/debugbar-timeData.png" alt="request">
+<img src="/assets/img/debugbar/debugbar-timeData.png" alt="request">
 
 * Exceptions
 
@@ -58,21 +58,21 @@ $debugbar['exceptions']→addException($e);
 * Views
 
 Shows all the blades being used on the page being displayed.
-<img src="/assets/img/debugbar-views.png" alt="request">
+<img src="/assets/img/debugbar/debugbar-views.png" alt="request">
 
 * Route
 
 Shows the route that is being used, what type of request is GET or POST, from which controller and method it is being called:
-<img src="/assets/img/debugbar-route.png" alt="request">
+<img src="/assets/img/debugbar/debugbar-route.png" alt="request">
 
 * Queries
 
 In the debug bar under Queries, all queries from the database are displayed.
-<img src="/assets/img/debugbar-queries.png" alt="request">
+<img src="/assets/img/debugbar/debugbar-queries.png" alt="request">
 
 * Request
 
 It brings some information related to the session, and requests made.
-<img src="/assets/img/debugbar-request.png" alt="request">
+<img src="/assets/img/debugbar/debugbar-request.png" alt="request">
 
 The debugging bar also has other information such as version, type of request, memory used, duration of the request. Clicking on the folder icon on the right side of the bar it will show the requests made.
