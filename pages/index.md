@@ -18,3 +18,5 @@ permalink: /
 * [Tinker](docs/tutorials/tinker/tutorial-tinker)
 
 * [Configuration for sending email](docs/tutorials/email/tutorial-email)
+
+* [Laravel with Docker](docs/tutorials/laravel-docker/tutorial-laravel-docker)

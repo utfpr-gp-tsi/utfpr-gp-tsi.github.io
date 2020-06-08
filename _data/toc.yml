@@ -20,3 +20,5 @@
       url: "docs/tutorials/tinker/tutorial-tinker"
     - title: "Configuration for sending email"
       url: "docs/tutorials/email/tutorial-email"
+    - title: "Laravel with Docker"
+      url: "docs/tutorials/laravel-docker/tutorial-laravel-docker"
