@@ -1,8 +1,8 @@
 ---
-title: Tutorial Email
+title: Sending emails with Gmail and Mailtrap
 ---
 
-# Configuration for sending email
+# Sending emails with Gmail and Mailtrap
 
 ### **Gmail configuration**
 
@@ -34,7 +34,7 @@ MAIL_ENCRYPTION=tls
 * The first step is to create an account on mailtrap [https://mailtrap.io/](https://mailtrap.io/).
 * After creating your account, you will be able to see your username and password.
 
-<img src="/assets/img/email/tutorial-email.png" alt="request">
+![tutorial-email.png](tutorial-email.png)
 
 * In your .env file in your project just configure it, with mailtrap information.
 ````

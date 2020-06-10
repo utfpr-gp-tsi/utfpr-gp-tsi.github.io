@@ -1,5 +1,5 @@
 ---
-title: Tutorial code analysis 
+title: PHP static code analysis tools
 ---
 
 # PHP static code analysis tools

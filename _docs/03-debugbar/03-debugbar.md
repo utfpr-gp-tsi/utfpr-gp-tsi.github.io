@@ -1,5 +1,5 @@
 ---
-title: Tutorial Debugbar
+title: Integrating the PHP debug bar with laravel
 ---
 
 # Debugbar
@@ -43,7 +43,7 @@ Adding Debugbar :: info ($ object); in the code it will show everything related 
 * TimeData
 
 It provides a way to record the total execution time, as well as to take "action" (that is, to measure the execution time of a specific operation).
-<img src="/assets/img/debugbar/debugbar-timeData.png" alt="request">
+![debugbar-timeData](debugbar-timeData.png) 
 
 * Exceptions
 
@@ -58,21 +58,21 @@ $debugbar['exceptions']→addException($e);
 * Views
 
 Shows all the blades being used on the page being displayed.
-<img src="/assets/img/debugbar/debugbar-views.png" alt="request">
+![debugbar-views](debugbar-views.png)
 
 * Route
 
 Shows the route that is being used, what type of request is GET or POST, from which controller and method it is being called:
-<img src="/assets/img/debugbar/debugbar-route.png" alt="request">
+![debugbar-route](debugbar-route.png)
 
 * Queries
 
 In the debug bar under Queries, all queries from the database are displayed.
-<img src="/assets/img/debugbar/debugbar-queries.png" alt="request">
+![debugbar-queries](debugbar-queries.png)
 
 * Request
 
 It brings some information related to the session, and requests made.
-<img src="/assets/img/debugbar/debugbar-request.png" alt="request">
+![debugbar-request.png](debugbar-request.png)
 
 The debugging bar also has other information such as version, type of request, memory used, duration of the request. Clicking on the folder icon on the right side of the bar it will show the requests made.

@@ -1,5 +1,5 @@
 ---
-title: Tutorial laravel project with docker
+title: Setup a laravel project with docker
 ---
 
 # Create new laravel project with docker

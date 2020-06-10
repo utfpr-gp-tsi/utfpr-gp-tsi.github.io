@@ -1,5 +1,5 @@
 ---
-title: Tutorial Tinker
+title: Php artisan tinker
 ---
 
 # Tinker
@@ -47,7 +47,7 @@ App\User::count();
 ````
 
 * After running **App\User::all()** and **App\User::count()**, mine looks like this. You should get something similar to my only difference, the data being generated.
-<img src="/assets/img/tinker/tinker-user-count.png" alt="request">
+![tinker-user-count.png](tinker-user-count.png)
 
 * 
 From repl, we can create a new user. You should note that we interact with this in the same way that you would write code in your laravel application. So, to create a new user, we would do:
@@ -58,7 +58,7 @@ $user->email = "iambatman@savegotham.com";
 $user→save();
 ````
 * Now we can type $user in the repl and get something like this.
-<img src="/assets/img/tinker/tinker-create-user.png" alt="request">
+![tinker-create-user.png](tinker-create-user.png)
 
 * To delete a user, we can just do:
 ````

@@ -1,24 +1,22 @@
-- title: Tutorials
+- title: Table of Contents
   links:
-    - title: "Deploy a laravel aplicattion"
-      url: "docs/tutorials/deploy-laravel/deploy-aplicattion-laravel"
+    - title: How to write a tutorial
+      url: docs/01-how-to/01-how-to
       children:
-        - title: Example of deploy.php
-          url: "docs/tutorials/deploy-laravel/example-file-deploy"
-    - title: "Debugbar"
-      url: "docs/tutorials/debugbar/tutorial-debugbar"
-    - title: "PHP static code analysis tools"
-      url: "docs/tutorials/code-analysis/tutorial-analysis"
+         - title: How to capture good screenshots
+           url: docs/01-how-to/01a-good-screenshots/01a-good-screenshots
+    - title: PHP static code analysis tools
+      url: docs/02-code-analysis/02-code-analysis
+    - title: Integrating the PHP debug bar with laravel
+      url: docs/03-debugbar/03-debugbar
+    - title: Deploy a laravel 7.x application
+      url: docs/04-deploy-laravel/04-deploy-laravel
       children:
-        - title: "squizlabs-standard"
-          url: "docs/tutorials/code-analysis/tutorial-analysis#squizlabs-standard"
-        - title: "phpstan"
-          url: "docs/tutorials/code-analysis/tutorial-analysis#phpstan"
-        - title: "larastan"
-          url: "docs/tutorials/code-analysis/tutorial-analysis#larastan"
-    - title: "Tinker"
-      url: "docs/tutorials/tinker/tutorial-tinker"
-    - title: "Configuration for sending email"
-      url: "docs/tutorials/email/tutorial-email"
-    - title: "Laravel with Docker"
-      url: "docs/tutorials/laravel-docker/tutorial-laravel-docker"
+         - title: Example of deploy.php
+           url: docs/04-deploy-laravel/04a-example-of-deploy/04a-example-of-deploy
+    - title: Sending emails with Gmail and Mailtrap
+      url: docs/05-sending-email/05-sending-email
+    - title: Setup a laravel project with docker
+      url: docs/06-laravel-docker/06-laravel-docker
+    - title: Php artisan tinker
+      url: docs/07-artisan-tinker/07-artisan-tinker

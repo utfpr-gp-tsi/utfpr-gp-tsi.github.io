@@ -103,7 +103,7 @@ title: Deploy a laravel 7.x application
 (l) $ docker-compose exec app vendor/bin/dep init -t Laravel
 ````
 12. In an editor, open the deploy.php file, to configure it:
-* Example of [deploy.php](example-file-deploy)
+* Example of [deploy.php](04a-example-of-deploy/04a-example-of-deploy)
 
 13. Allow access to the server via ssh through the container:
 * Create a folder named .ssh within the project and copy your private key:
