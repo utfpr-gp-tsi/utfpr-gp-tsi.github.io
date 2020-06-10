@@ -81,3 +81,16 @@ You can then open your browser to [http://localhost:4000/](http://localhost:4000
 to see the server running.
 
 > Node : changes `baseurl: ""` in _config.yml  when you are running in local and prod according to the requirement.
+
+
+### Useful links for editing this project
+
+http://jmcglone.com/guides/github-pages/
+
+https://vsoch.github.io/docsy-jekyll/docs/getting-started#getting-started
+
+https://shopify.github.io/liquid/basics/truthy-and-falsy/
+
+https://gist.github.com/JJediny/a466eed62cee30ad45e2
+
+https://packetlife.net/media/library/16/Markdown.pdf
